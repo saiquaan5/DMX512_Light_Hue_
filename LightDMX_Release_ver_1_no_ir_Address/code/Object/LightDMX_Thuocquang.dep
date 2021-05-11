@@ -1,0 +1,626 @@
+Dependencies for Project 'LightDMX', Target 'Thuocquang': (DO NOT MODIFY !)
+F (.\main.c)(0x603F105B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\main.o --omf_browse .\object\main.crf --depend .\object\main.d)
+I (.\Task\Main_Task.h)(0x5819C83C)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\queue.h)(0x573ED7A6)
+I (.\Function\Program.h)(0x58CA58DF)
+I (.\Function\LedOut.h)(0x58DB5ABA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (.\Function\Keypad.h)(0x581A0E7B)
+I (.\Function\Encoder.h)(0x58F1DBEF)
+I (.\Function\Driver.h)(0x58F18ECB)
+I (.\Function\GPIO.h)(0x603EE2D4)
+I (.\Function\RTC_BKP.h)(0x58F1C965)
+I (.\Function\24C02.h)(0x603F0CE4)
+F (.\stm32f10x_it.c)(0x58F18C98)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_it.o --omf_browse .\object\stm32f10x_it.crf --depend .\object\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x4D99B238)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (.\Function\Driver.h)(0x58F18ECB)
+I (.\Function\LedOut.h)(0x58DB5ABA)
+I (.\Function\Keypad.h)(0x581A0E7B)
+I (.\Function\Encoder.h)(0x58F1DBEF)
+I (.\Function\GPIO.h)(0x603EE2D4)
+I (.\Function\RTC_BKP.h)(0x58F1C965)
+F (.\Function\GPIO.c)(0x603F0F70)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\gpio.o --omf_browse .\object\gpio.crf --depend .\object\gpio.d)
+I (Function\GPIO.h)(0x603EE2D4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (.\Function\Keypad.c)(0x5819DFF9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\keypad.o --omf_browse .\object\keypad.crf --depend .\object\keypad.d)
+I (Function\Keypad.h)(0x581A0E7B)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (.\Function\LedOut.c)(0x58DB5A9E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\ledout.o --omf_browse .\object\ledout.crf --depend .\object\ledout.d)
+I (Function\LedOut.h)(0x58DB5ABA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (.\Function\Encoder.c)(0x58F1DC1D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\encoder.o --omf_browse .\object\encoder.crf --depend .\object\encoder.d)
+I (Function\Encoder.h)(0x58F1DBEF)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (Function\Driver.h)(0x58F18ECB)
+I (Function\LedOut.h)(0x58DB5ABA)
+I (Function\Keypad.h)(0x581A0E7B)
+I (Function\GPIO.h)(0x603EE2D4)
+I (Function\RTC_BKP.h)(0x58F1C965)
+I (Function\interrupt.h)(0x58F18A44)
+F (.\Function\Driver.c)(0x58F1DC00)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\driver.o --omf_browse .\object\driver.crf --depend .\object\driver.d)
+I (Function\Driver.h)(0x58F18ECB)
+I (Function\LedOut.h)(0x58DB5ABA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (Function\Keypad.h)(0x581A0E7B)
+I (Function\Encoder.h)(0x58F1DBEF)
+I (Function\GPIO.h)(0x603EE2D4)
+I (Function\RTC_BKP.h)(0x58F1C965)
+F (.\Function\Program.c)(0x58F1DBD9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\program.o --omf_browse .\object\program.crf --depend .\object\program.d)
+I (Function\Program.h)(0x58CA58DF)
+I (Function\LedOut.h)(0x58DB5ABA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (Function\Keypad.h)(0x581A0E7B)
+I (Function\Encoder.h)(0x58F1DBEF)
+I (Function\Driver.h)(0x58F18ECB)
+I (Function\GPIO.h)(0x603EE2D4)
+I (Function\RTC_BKP.h)(0x58F1C965)
+F (.\Function\RTC_BKP.c)(0x58CA54C1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\rtc_bkp.o --omf_browse .\object\rtc_bkp.crf --depend .\object\rtc_bkp.d)
+I (Function\RTC_BKP.h)(0x58F1C965)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (.\Function\interrupt.c)(0x58F1864B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\interrupt.o --omf_browse .\object\interrupt.crf --depend .\object\interrupt.d)
+I (Function\interrupt.h)(0x58F18A44)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (.\Function\24C02.c)(0x603F0EB1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\24c02.o --omf_browse .\object\24c02.crf --depend .\object\24c02.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (Function\24C02.h)(0x603F0CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+F (.\source\croutine.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\croutine.o --omf_browse .\object\croutine.crf --depend .\object\croutine.d)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\croutine.h)(0x573ED7A6)
+F (.\source\event_groups.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\event_groups.o --omf_browse .\object\event_groups.crf --depend .\object\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\timers.h)(0x573ED7A6)
+I (.\source\include\event_groups.h)(0x573ED7A6)
+F (.\source\list.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\list.o --omf_browse .\object\list.crf --depend .\object\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+F (.\source\queue.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\queue.o --omf_browse .\object\queue.crf --depend .\object\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\queue.h)(0x573ED7A6)
+F (.\source\tasks.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\tasks.o --omf_browse .\object\tasks.crf --depend .\object\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\timers.h)(0x573ED7A6)
+I (.\source\include\StackMacros.h)(0x573ED7A6)
+F (.\source\timers.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\timers.o --omf_browse .\object\timers.crf --depend .\object\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\queue.h)(0x573ED7A6)
+I (.\source\include\timers.h)(0x573ED7A6)
+F (.\source\portable\RVDS\ARM_CM3\port.c)(0x573ED7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\port.o --omf_browse .\object\port.crf --depend .\object\port.d)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+F (.\source\portable\MemMang\heap_4.c)(0x5818888D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\heap_4.o --omf_browse .\object\heap_4.crf --depend .\object\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+F (.\Task\Main_Task.c)(0x603F11E3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\main_task.o --omf_browse .\object\main_task.crf --depend .\object\main_task.d)
+I (Task\Main_Task.h)(0x5819C83C)
+I (.\source\include\FreeRTOS.h)(0x573ED7A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FreeRTOSConfig.h)(0x603F114B)
+I (.\source\include\projdefs.h)(0x573ED7A6)
+I (.\source\include\portable.h)(0x573ED7A6)
+I (.\source\include\deprecated_definitions.h)(0x573ED7A6)
+I (.\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h)(0x573ED7A6)
+I (.\source\include\mpu_wrappers.h)(0x573ED7A6)
+I (.\source\include\task.h)(0x573ED7A6)
+I (.\source\include\list.h)(0x573ED7A6)
+I (.\source\include\queue.h)(0x573ED7A6)
+I (.\Function\Program.h)(0x58CA58DF)
+I (.\Function\LedOut.h)(0x58DB5ABA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (.\Function\Keypad.h)(0x581A0E7B)
+I (.\Function\Encoder.h)(0x58F1DBEF)
+I (.\Function\Driver.h)(0x58F18ECB)
+I (.\Function\GPIO.h)(0x603EE2D4)
+I (.\Function\RTC_BKP.h)(0x58F1C965)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\misc.o --omf_browse .\object\misc.crf --depend .\object\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_bkp.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_bkp.o --omf_browse .\object\stm32f10x_bkp.crf --depend .\object\stm32f10x_bkp.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_exti.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_exti.o --omf_browse .\object\stm32f10x_exti.crf --depend .\object\stm32f10x_exti.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_flash.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_flash.o --omf_browse .\object\stm32f10x_flash.crf --depend .\object\stm32f10x_flash.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_gpio.o --omf_browse .\object\stm32f10x_gpio.crf --depend .\object\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_i2c.o --omf_browse .\object\stm32f10x_i2c.crf --depend .\object\stm32f10x_i2c.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_pwr.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_pwr.o --omf_browse .\object\stm32f10x_pwr.crf --depend .\object\stm32f10x_pwr.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_rcc.o --omf_browse .\object\stm32f10x_rcc.crf --depend .\object\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rtc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_rtc.o --omf_browse .\object\stm32f10x_rtc.crf --depend .\object\stm32f10x_rtc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\stm32f10x_tim.o --omf_browse .\object\stm32f10x_tim.crf --depend .\object\stm32f10x_tim.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5927EDB6)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5825467C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 513" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_md.lst --xref -o .\object\startup_stm32f10x_md.o --depend .\object\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5825467C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Function -I.\source\include -I.\source\portable\MemMang -I.\Task -I.\-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE-I C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102 -DUSE_STDPERIPH_DRIVER-o .\object\system_stm32f10x.o --omf_browse .\object\system_stm32f10x.crf --depend .\object\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Users\phaph\Desktop\Project\Sitech\LightDMX\SourceCode\code\RTE\RTE_Components.h)(0x6040437A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)

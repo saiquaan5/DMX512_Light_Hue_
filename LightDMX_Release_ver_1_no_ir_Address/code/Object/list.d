@@ -1,0 +1,12 @@
+.\object\list.o: source\list.c
+.\object\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\object\list.o: .\source\include\FreeRTOS.h
+.\object\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\object\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\object\list.o: .\FreeRTOSConfig.h
+.\object\list.o: .\source\include\projdefs.h
+.\object\list.o: .\source\include\portable.h
+.\object\list.o: .\source\include\deprecated_definitions.h
+.\object\list.o: .\source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h
+.\object\list.o: .\source\include\mpu_wrappers.h
+.\object\list.o: .\source\include\list.h

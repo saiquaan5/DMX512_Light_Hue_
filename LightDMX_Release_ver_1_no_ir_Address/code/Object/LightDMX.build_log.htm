@@ -1,0 +1,198 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: DUNG NGUYEN, SIGN, LIC=GMZI6-DPZBL-DYPV3-A6LCH-APN1V-62Z1G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\Sitech\Fimware\Cau di bo Hue\Realeas_ver1_No_IR_Address\LightDMX_Release_ver_1_no_ir_Address\code\LightDMX.uvprojx
+Project File Date:  05/06/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'LightDMX'
+compiling list.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling LightDMX.c...
+Function\LightDMX.h(68): warning:  #1-D: last line of file ends without a newline
+  #endif
+Function\LightDMX.c(117): warning:  #1-D: last line of file ends without a newline
+  }
+Function\LightDMX.c: 2 warnings, 0 errors
+compiling timers.c...
+compiling queue.c...
+compiling tasks.c...
+compiling port.c...
+compiling heap_4.c...
+compiling 24C02.c...
+compiling RTC_BKP.c...
+Function\RTC_BKP.h(43): warning:  #1-D: last line of file ends without a newline
+  	#endif
+Function\RTC_BKP.c(74): warning:  #1-D: last line of file ends without a newline
+   
+Function\RTC_BKP.c: 2 warnings, 0 errors
+compiling dmx512_rec.c...
+compiling PWM.c...
+Function\PWM.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+Function\PWM.c(63): warning:  #1-D: last line of file ends without a newline
+  }
+Function\PWM.c: 2 warnings, 0 errors
+compiling serial_tracer.c...
+compiling stm32f10x_it.c...
+.\Function\LightDMX.h(68): warning:  #1-D: last line of file ends without a newline
+  #endif
+stm32f10x_it.c(130): warning:  #177-D: variable "xHigherPriorityTaskWoken"  was declared but never referenced
+  	BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+stm32f10x_it.c(53): warning:  #550-D: variable "packet_type"  was set but never used
+  static enum packet_type packet_type;
+stm32f10x_it.c: 3 warnings, 0 errors
+compiling main.c...
+.\Function\LightDMX.h(68): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Function\PWM.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c: 2 warnings, 0 errors
+compiling misc.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_bkp.c...
+compiling Main_Task.c...
+.\Function\LightDMX.h(68): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Function\PWM.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+Task\Main_Task.c(33): warning:  #167-D: argument of type "uint8_t (*)(uint16_t, uint8_t *, uint16_t)" is incompatible with parameter of type "u8I2C_ReadFn"
+   u8_LightDMX_Init(dmx512_init,EPPROM_Read,EPPROM_Write,pwm_set_output);
+Task\Main_Task.c(33): warning:  #167-D: argument of type "uint8_t (*)(uint16_t, uint8_t *, uint16_t)" is incompatible with parameter of type "u8I2C_WriteFn"
+   u8_LightDMX_Init(dmx512_init,EPPROM_Read,EPPROM_Write,pwm_set_output);
+Task\Main_Task.c(19): warning:  #177-D: variable "ReceiveData"  was declared but never referenced
+  	DMX_Command_Queue ReceiveData=DEBUGRED_COMMAND_QUEUE;
+Task\Main_Task.c(21): warning:  #550-D: variable "res"  was set but never used
+   uint8_t res;
+Task\Main_Task.c(58): warning:  #1-D: last line of file ends without a newline
+   
+Task\Main_Task.c: 7 warnings, 0 errors
+compiling stm32f10x_flash.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=28884 RO-data=812 RW-data=192 ZI-data=13016  
+FromELF: creating hex file...
+".\Object\LightDMX.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: BKP Version: 3.5.0
+   * Component: EXTI Version: 3.5.0
+   * Component: Flash Version: 3.5.0
+   * Component: Framework Version: 3.5.1
+   * Component: GPIO Version: 3.5.0
+   * Component: I2C Version: 3.5.0
+   * Component: PWR Version: 3.5.0
+   * Component: RCC Version: 3.5.0
+   * Component: RTC Version: 3.5.0
+   * Component: TIM Version: 3.5.0
+   * Component: USART Version: 3.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_LightDMX
+  C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\PC\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+  C:\Users\PC\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:StdPeriph Drivers:BKP:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_bkp.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_bkp.c
+
+   * Component: Keil::Device:StdPeriph Drivers:EXTI:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_exti.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_exti.h
+
+   * Component: Keil::Device:StdPeriph Drivers:Flash:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_flash.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_flash.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+
+   * Component: Keil::Device:StdPeriph Drivers:I2C:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_i2c.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_i2c.h
+
+   * Component: Keil::Device:StdPeriph Drivers:PWR:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_pwr.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_pwr.h
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RTC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rtc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rtc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
+
+   * Component: Keil::Device:StdPeriph Drivers:USART:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_usart.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
